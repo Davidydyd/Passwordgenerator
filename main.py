@@ -3,7 +3,7 @@ import random
 
 
 commonWords = ['cat','dog','jump','train','soccer','Bayern','show','movie','series','phone']
-specialChars =['!','&','#','%','&']
+specialChars =['!','+','#','%','=']
 
 
 def create_password():
