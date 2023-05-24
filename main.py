@@ -8,7 +8,7 @@ specialChars =['!','&','#','%','&']
 
 def create_password():
   password = random.choice(commonWords) + random.choice(specialChars) + random.choice(commonWords) + str(random.randint(0,100)) + random.choice(specialChars)
-  print(password)
+  print("\n\n",password)
 
 window = Tk()
 window.title('Password')
