@@ -2,8 +2,8 @@ from tkinter import *
 import random
 
 
-commonWords = ['cat','dog','jump','train','soccer','Bayern','show','movie','series','phone']
-specialChars =['!','+','#','%','=']
+commonWords = ['mouse','dog','jump','train','soccer','Bayern','show','movie','series','phone']
+specialChars =['!','+','#','@','=']
 
 
 def create_password():
